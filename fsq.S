@@ -3,3 +3,4 @@
        out     ddrb,r16      ; PB0 as output
        sbi     pinb,pinb0    ; toggle
        rjmp    PC-1          ; forever
+       
